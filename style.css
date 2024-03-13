@@ -1,9 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext");
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
+}
+
+body {
   background-color: #ffefef;
+}
+
+button {
+  background-color: #ffefef;
+  border: none;
+  padding: 15px;
+}
+
+.greeting {
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: 100;
+  max-width: 35%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  margin: 40px;
 }
 
 h1,
@@ -11,6 +37,82 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
-div .nabidka {
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.main {
   background-color: #ffffff;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.nabidka {
+  margin: 0 auto;
+  max-width: 1100px;
+  font-weight: 50;
+}
+
+.nabidka-intro {
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 50;
+  max-width: 40%;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.home {
+  max-width: 2000 px;
+
+  margin: 60px;
+}
+.home img {
+  max-width: 300px;
+  padding: 6px;
+}
+
+.opis .row {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.dish-1,
+.dish-2 {
+  height: 300px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.dish-1 {
+  text-align: left;
+}
+
+.dish-2 {
+  text-align: right;
+}
+
+.dish-img {
+  position: relative;
+  max-height: 100%;
+}
+
+.menu img {
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+  right: 60px;
+}
+
+footer {
+  margin: 60px;
+  text-align: center;
 }
